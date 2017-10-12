@@ -1,0 +1,48 @@
+{
+  "reportDescription": {
+    "anomalyDetection": false,
+    "currentData": false,
+    "segments": [
+      {
+        "id": "s122_57b46ea2e4b0f6532970e865"
+      }
+    ],
+    "dateFrom": "2017-07-08",
+    "sortBy": "pageviews",
+    "dateTo": "2017-10-05",
+    "reportSuiteID": "cnn-adbp-intl",
+    "elementDataEncoding": "utf8",
+    "breakdownType": "correlation",
+    "locale": "en_US",
+    "metrics": [
+      {
+        "id": "pageviews"
+      }
+    ],
+    "elements": [
+      {
+        "id": "prop26",
+        "top": 50,
+        "startingWith": 1,
+        "search": {
+          "type": "and",
+          "keywords": [],
+          "searches": [
+            {
+              "type": "not",
+              "keywords": [
+                "::unspecified::"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "prop23",
+        "top": 1,
+        "startingWith": 1
+      }
+    ],
+    "expedite": false
+  }
+}

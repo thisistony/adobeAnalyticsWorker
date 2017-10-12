@@ -1,0 +1,10 @@
+machine:
+  node:
+    version: 6.2.0
+  services:
+    - docker
+
+test:
+  pre:
+    - docker build -t dynamodb ./test/server
+    - docker run -d -p 4337:4337 dynamodb
