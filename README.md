@@ -24,4 +24,4 @@
 * Attach Jerry to the API Gateway.
 
 ## Questions?
-* [@thisistonylu](https://github.com/thisistony)
+* [@thisistony](https://github.com/thisistony)
