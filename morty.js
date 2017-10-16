@@ -73,8 +73,7 @@ module.exports.run = function(context){
                   rankingkey: i,
                   titlename: parsedReponse.report.data[i].breakdown[0].name,
                   pathname: parsedReponse.report.data[i].name,
-                  pageviews: parsedReponse.report.data[i].counts[0],
-                  sortKey : i
+                  pageviews: parsedReponse.report.data[i].counts[0]
                 };
                 ddb.putItem('top50Fashion', item, {}, function(err, res, cap) {
                   console.log(err);
