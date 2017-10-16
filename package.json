@@ -1,7 +1,7 @@
 {
   "name": "cnn-top-articles",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lambda NodeJS worker that queues and downloads Adobe Analytics Reports from the API",
   "main": "index.js",
   "dependencies": {
     "aws-sdk": "^2.128.0",
@@ -15,6 +15,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Tony Lu @thisistonylu",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thisistony/adobeAnalyticsWorker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thisistony/adobeAnalyticsWorker/issues"
+  },
+  "homepage": "https://github.com/thisistony/adobeAnalyticsWorker#readme"
 }

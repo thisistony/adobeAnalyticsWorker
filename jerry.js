@@ -41,7 +41,7 @@ function topArticleDownload(){
       topThirty.sort(function(a, b) {
         return parseFloat(a.sortKey) - parseFloat(b.sortKey);
       });
-      //context.done (null, topThirty);
       console.log(topThirty)
+      context.done (topThirty);
     })
   }
