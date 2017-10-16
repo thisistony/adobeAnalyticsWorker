@@ -1,7 +1,5 @@
 # Adobe Analytics Report Worker
 
-<div align="center">
-
 <p>✨ <strong>Adobe Analytics Report Worker</strong> is a set of workers that will allow you to schedule/queue Adobe Analytics Reports via the API and uploads the results onto an AWS DynamoDB database. It also has an endpoint worker to query the results.✨</p>
 
 ## Overview
@@ -23,7 +21,7 @@
 
 * Schedule Rick/Morty to run on a regular basis. It will upload the latest data points to the DynamoDB database.
 
-* Attach Jerry to the API Gateway. 
+* Attach Jerry to the API Gateway.
 
 ## Questions?
 * [@thisistonylu](https://github.com/thisistony)
