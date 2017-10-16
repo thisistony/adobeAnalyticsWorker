@@ -34,7 +34,7 @@ function topArticleDownload(){
     return deferred.promise;
   }
 
-  module.exports.run = function(context){
+  module.exports.run = function(event, context){
     topArticleDownload().then(function(topThirty){
       topThirty.sort(function(a, b) {
         return parseFloat(a.sortKey) - parseFloat(b.sortKey);
