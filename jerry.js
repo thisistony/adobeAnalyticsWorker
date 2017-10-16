@@ -21,7 +21,6 @@ function topArticleDownload(){
 
     var deferred = q.defer();
     var topThirty = [];
-    for(t=0; t<=30; t++){
       ddb.batchGetItem({'top50Fashion': { keys: arrayCount}}, function(err, res) {
         if(err) {
           console.log(err);
@@ -30,7 +29,6 @@ function topArticleDownload(){
           deferred.resolve(res.items);
         }
       });
-    }
     return deferred.promise;
   }
 
