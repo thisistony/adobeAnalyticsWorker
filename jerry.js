@@ -35,13 +35,11 @@ function topArticleDownload(){
   }
 
   module.exports.run = function(context){
-
-
     topArticleDownload().then(function(topThirty){
       topThirty.sort(function(a, b) {
         return parseFloat(a.sortKey) - parseFloat(b.sortKey);
       });
       console.log(topThirty)
-      context.done (topThirty);
+      context.done (null, {topThirty});
     })
   }
