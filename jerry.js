@@ -1,6 +1,5 @@
 var AWS = require('aws-sdk'),
 q = require ('q'),
-requestPayload = require('./config/requestPayload.json')
 request = require('request'),
 arrayCount = require('./config/arrayCount.json'),
 moment = require('moment'),
